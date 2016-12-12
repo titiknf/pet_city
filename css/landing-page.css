@@ -1,0 +1,247 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    font-size: 18px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+	list-style-image:url(../../Unnamed%20Site%204/logo.png);
+	background-color: #FF8473;
+    background-size: cover;
+}
+
+.intro-message {
+	display:block;
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 20%;
+	text-transform: uppercase;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #34d182;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #34d182;
+    border-bottom: 1px solid #34d182;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #34d182;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #ff9840;
+    background: url(../img/pet-city1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #ff9840;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+#pc-menu{
+	margin: 5px 0 0 5px;
+	padding: 0;
+	list-style: none;
+}
+
+#pc-menu li{
+	position: relative;
+	float: left;
+	width: 100px;	
+}
+
+#pc-menu li ul{
+	position: absolute;
+	top: 30 px;
+	display: none;	
+}
+
+#pc-menu li a{
+	line-height: 20 px;
+	text-align: center;
+	font:Helvetica Neue;
+	display: block;
+	padding: 5px 15px 7px 15px;
+	box-shadow:3px 5px 7px #ff7600;
+	color:#e7e7e7;	
+}
+
+#pc-menu li a:hover{
+	box-shadow:0px -3spx 7px #FF7600;	
+}
+
+#pc-menu li:hover ul, #pc-menu li.hover ul{
+	display: inherit;	
+}
+
+/* Sub Menu */
+#pc-menu ul{
+	
+	margin-top: -1px;
+	padding: 0;
+	list-style: none;
+}
+
+#pc-menu ul li{
+	position: relative;
+	float: left;
+	width: 100px;	
+}
+
+#pc-menu ul li a{
+	background-color: #34d182;
+	border: 1px #ff7600 solid;
+	box-shadow:0px 0px 0px  #000;	
+}
+
+.konten-barang{
+	padding: 5px;
+	float: left;
+	height: 200px;
+	width: 120px;
+	border: 2px solid #FFb473;
+	border-radius: 5px;
+	box-shadow: 3px 3px 7px #3AA6D0;
+	text-align: center;
+	margin: 0 8px 8px 0;	
+}
+
+
